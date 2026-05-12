@@ -67,7 +67,7 @@ for (let i = 0; i < produtos.length; i++) {
 }
 
 listaCaracteres(tamnhoDaCaixa, '-')
-console.log('TOTAL R$', totalDeTodosOsProdutos.toFixed(2))
+centralizar('TOTAL R$'+  totalDeTodosOsProdutos.toFixed(2), tamnhoDaCaixa, 'c')
 
 fraseTopo( 'OBRIGADO E VOLTE SEMPRE!' )
 
