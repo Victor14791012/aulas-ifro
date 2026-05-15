@@ -12,3 +12,8 @@ a.alun_nome like '%Talita%' ;
 select profissao,
 count(*) as "Quantidade" from alunos
 group by profissao;
+
+
+select count(alun_id) as "Quaquer Nome (Contagem de Alunos)" from alunos where profissao like "programador";
+
+select curs_carga, count(*) "Carga horaria curso", sum(curs_carga) as "soma total de horas" from cursos group by curs_carga;
